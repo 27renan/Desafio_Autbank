@@ -1,0 +1,100 @@
+.meuCarrinho {
+  background-color: white;
+  height: auto;
+  padding-bottom: 40px;
+}
+
+.cardValor {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: baseline;
+  margin-top: 30px;
+}
+
+.cardValor .valor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn_finalizar {
+  background-color: green !important;
+}
+
+.title {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  font-size: 1.5rem;
+  color: rgb(128, 111, 223);
+}
+
+.subTitle {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.list_livros {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+  width: 40%;
+  border: 1px solid rgb(167, 165, 165);
+  border-radius: 27px;
+  margin-left: 25px;
+}
+
+.img_livro {
+  height: 25vh;
+  padding: 15px;
+}
+
+.img_livro img {
+  height: 100%;
+}
+
+.info_car {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 35px;
+}
+
+.btn_remover {
+  margin-top: 10px !important;
+  background-color: rgb(240, 97, 97) !important;
+}
+
+.textFooter {
+  text-align: center;
+  font-weight: bold;
+  padding: 30px;
+  font-size: 1.5rem;
+}
+
+.modal_finalizar_compra {
+  font-weight: bold;
+  padding: 30px;
+}
+
+.btn_modal {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 360px) {
+  .cardValor {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+}

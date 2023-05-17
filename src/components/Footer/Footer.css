@@ -1,0 +1,36 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: auto;
+  bottom: 0;
+  position: relative;
+  width: 100%;
+}
+
+.logo_dev {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+
+.text_1 {
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text_2 {
+  color: rgb(4, 255, 4);
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text_3 {
+  color: black;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
